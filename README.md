@@ -1,41 +1,42 @@
 # Deepastambh Pratishthan — NGO Website
 
-A bilingual (English / Marathi) website built for **Deepastambh Pratishthan**, a social foundation working across Maharashtra in the areas of service, education, and community empowerment. The site presents the foundation's mission, activities, initiatives & success stories, gallery, and donation/volunteer touchpoints.
+A bilingual (English / Marathi) website for Deepastambh Pratishthan, a social foundation
+working across Maharashtra in service, education, and community empowerment. The site
+covers the foundation's mission, activities, initiatives and success stories, a gallery,
+and the donation/volunteer touchpoints.
 
-> 🧑‍💻 I built this website during my **5-month internship at Aivot AI**, where I
-> worked as an **Associate Software Engineer**. It was my first end-to-end frontend
-> project — spanning component architecture, a custom i18n system, responsive design,
-> and static-host deployment.
+I built this during a 5-month internship at Aivot AI, where I worked as an Associate
+Software Engineer. It was my first proper end-to-end frontend project, so a lot of it was
+me figuring things out as I went — the component structure, the bilingual setup, and
+getting it deployed on a static host.
 
-🌐 **Live Demo:** _add your deployed link here (Vercel / Netlify / GitHub Pages)_
+**Live Demo:** _(coming soon)_
 
----
+## What it does
 
-## ✨ Features
+- **English / Marathi toggle.** All the text runs through a small i18n layer built on React
+  Context. The chosen language is saved to `localStorage`, so it sticks between visits, and
+  each language file is loaded only when it's actually needed.
+- **Seven pages.** Home, About, Activities, Gallery, Get Involved, Donate, and Contact, all
+  wired up with React Router. The Home page also has an Initiatives & Success Stories
+  section.
+- **Engagement popups.** Subscribe / Volunteer / Contact prompts that show up on a timer and
+  pick one at random. They're driven from a single context, so any page can trigger them.
+- **Shared components.** Header, Footer, Hero, Mission, Core Focus, Initiatives, and the
+  Transformation section are all broken out into their own pieces.
+- **Responsive.** Built with Tailwind so it holds up on phones, tablets, and desktop.
 
-- **Bilingual UI (English & Marathi)** — full internationalization via a custom React Context. Language choice persists across sessions using `localStorage`, and translation files are lazy-loaded on demand.
-- **Multi-page experience** — Home, About, Activities, Gallery, Get Involved, Donate, and Contact pages, wired through React Router. The Home page also features an *Initiatives & Success Stories* section.
-- **Smart engagement popups** — a centralized popup engine that surfaces *Subscribe*, *Volunteer*, and *Contact* prompts on timed and randomized triggers, managed through React Context so any page can drive it.
-- **Reusable component architecture** — Header, Footer, Hero, Mission, Core Focus, Initiatives, and Transformation sections split into self-contained components.
-- **Responsive design** — styled with Tailwind CSS for a consistent look across mobile, tablet, and desktop.
+## Tech stack
 
----
+- React 19
+- React Router 7 (HashRouter)
+- Tailwind CSS 3 (+ PostCSS, Autoprefixer)
+- Vite (rolldown-vite)
+- React Context API + Hooks for state and i18n
+- ESLint 9
+- JavaScript (JSX)
 
-## 🛠️ Tech Stack
-
-| Category | Technology |
-|---|---|
-| Framework | React 19 |
-| Routing | React Router DOM 7 (`HashRouter`) |
-| Styling | Tailwind CSS 3, PostCSS, Autoprefixer |
-| Build Tool | Vite (rolldown-vite) |
-| State / i18n | React Context API + Hooks |
-| Linting | ESLint 9 |
-| Language | JavaScript (JSX) |
-
----
-
-## 📁 Project Structure
+## Project structure
 
 ```
 src/
@@ -56,63 +57,39 @@ src/
     └── Home/components/    # Hero, Mission, CoreFocus, Initiatives
 ```
 
----
+## Running it locally
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm
-
-### Installation
+You'll need Node.js 18+ and npm.
 
 ```bash
-# Clone the repository
-git clone https://github.com/<your-username>/deepstambh.git
-cd deepstambh
-
-# Install dependencies
+git clone https://github.com/som0121/Deepstambh-ngo.git
+cd Deepstambh-ngo
 npm install
-
-# Start the dev server
 npm run dev
 ```
 
-### Available Scripts
+Scripts:
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the Vite dev server |
-| `npm run build` | Create a production build |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint |
+- `npm run dev` — start the dev server
+- `npm run build` — production build
+- `npm run preview` — preview the build locally
+- `npm run lint` — run ESLint
 
----
+## A few things I ran into
 
-## 🧩 Challenges Faced & Solutions
+- **Keeping the bilingual text manageable.** Rather than duplicating every string in two
+  languages inside the components, I put everything behind a `t(key)` helper backed by JSON
+  files. Components just call `t("hero_title")` and the language switch handles the rest.
+  Only the active language's file gets imported.
+- **Remembering the language choice.** The selected language is written to `localStorage` and
+  read back on load, so someone coming back to the site keeps whatever they picked last time.
+- **Popups that don't annoy.** The foundation wanted Subscribe/Volunteer/Contact prompts but
+  nothing pushy. I kept the timers in a single `PopupContext` and used `useRef` so they get
+  cleaned up properly instead of piling up.
+- **Routing on a static host.** Went with `HashRouter` so deep links don't 404 on GitHub
+  Pages / Netlify without needing any server config.
 
-- **Bilingual content without bloating components** — Instead of hardcoding two copies of every string, I built a `LanguageContext` with a `t(key)` helper and JSON translation files. Components just call `t("hero_title")`, and the language can be switched globally. Translations are dynamically imported so only the active language's file is loaded.
-- **Persisting the user's language choice** — Solved by syncing the selected language to `localStorage` and rehydrating it on load, so a returning visitor keeps their preference.
-- **Non-intrusive engagement prompts** — The foundation wanted Subscribe/Volunteer/Contact popups without annoying users. I centralized this in a `PopupContext` using `setTimeout`/`setInterval` with `useRef` to manage timers cleanly and avoid memory leaks, picking a random prompt on each trigger.
-- **Clean routing on static hosting** — Used `HashRouter` so deep links work reliably on static hosts (GitHub Pages / Netlify) without server-side route configuration.
+## Notes
 
----
-
-## 🎯 What I Achieved
-
-- Delivered a complete, production-ready, fully responsive NGO website from scratch.
-- Implemented a reusable internationalization system supporting two languages with persistent preferences.
-- Designed a maintainable, component-driven architecture using modern React (Context API + Hooks).
-- Gained hands-on experience with the React 19 + Vite + Tailwind CSS workflow in a real-world project.
-
----
-
-## 🙌 Acknowledgements
-
-Built as part of my internship at **Aivot AI** (Associate Software Engineer),
-for **Deepastambh Pratishthan**.
-
----
-
-## 📄 License
-
-This project was developed as part of an internship. Reach out before reuse.
+This was built as part of my internship at Aivot AI for Deepastambh Pratishthan. Please reach
+out before reusing it.
