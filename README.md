@@ -11,7 +11,7 @@ A bilingual (English / Marathi) website built for **Deepastambh Pratishthan**, a
 ## ✨ Features
 
 - **Bilingual UI (English & Marathi)** — full internationalization via a custom React Context. Language choice persists across sessions using `localStorage`, and translation files are lazy-loaded on demand.
-- **Multi-page experience** — Home, About, Activities, Initiatives, Gallery, Get Involved, Donate, and Contact pages, wired through React Router.
+- **Multi-page experience** — Home, About, Activities, Gallery, Get Involved, Donate, and Contact pages, wired through React Router. The Home page also features an *Initiatives & Success Stories* section.
 - **Smart engagement popups** — a centralized popup engine that surfaces *Subscribe*, *Volunteer*, and *Contact* prompts on timed and randomized triggers, managed through React Context so any page can drive it.
 - **Reusable component architecture** — Header, Footer, Hero, Mission, Core Focus, Initiatives, and Transformation sections split into self-contained components.
 - **Responsive design** — styled with Tailwind CSS for a consistent look across mobile, tablet, and desktop.
