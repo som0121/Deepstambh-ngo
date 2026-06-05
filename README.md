@@ -1,6 +1,8 @@
 # Deepastambh Pratishthan — NGO Website
 
-A bilingual (English / Marathi) website built for **Deepastambh Pratishthan**, a social foundation working across Maharashtra in the areas of service, education, and community empowerment. The site presents the foundation's mission, activities, initiatives & success stories, gallery, and donation/volunteer touchpoints.
+Bilingual (English / Marathi) website for **Deepastambh Pratishthan**, a Maharashtra-based
+foundation working in service, education, and community empowerment. Built during a
+5-month frontend internship.
 
 > 🧑‍💻 I built this website during my **5-month internship at Aivot AI**, where I
 > worked as an **Associate Software Engineer**. It was my first end-to-end frontend
@@ -13,78 +15,48 @@ A bilingual (English / Marathi) website built for **Deepastambh Pratishthan**, a
 
 ## ✨ Features
 
-- **Bilingual UI (English & Marathi)** — full internationalization via a custom React Context. Language choice persists across sessions using `localStorage`, and translation files are lazy-loaded on demand.
-- **Multi-page experience** — Home, About, Activities, Gallery, Get Involved, Donate, and Contact pages, wired through React Router. The Home page also features an *Initiatives & Success Stories* section.
-- **Smart engagement popups** — a centralized popup engine that surfaces *Subscribe*, *Volunteer*, and *Contact* prompts on timed and randomized triggers, managed through React Context so any page can drive it.
-- **Reusable component architecture** — Header, Footer, Hero, Mission, Core Focus, Initiatives, and Transformation sections split into self-contained components.
-- **Responsive design** — styled with Tailwind CSS for a consistent look across mobile, tablet, and desktop.
+- **Bilingual UI (EN/MR)** — custom React Context i18n; preference persists via `localStorage`, translations lazy-loaded.
+- **Multi-page** — Home, About, Activities, Gallery, Get Involved, Donate, Contact (React Router).
+- **Engagement popups** — centralized Subscribe/Volunteer/Contact prompts on timed & randomized triggers.
+- **Reusable components** — Header, Footer, Hero, Mission, Core Focus, Initiatives, Transformation.
+- **Responsive** — Tailwind CSS across mobile, tablet, desktop.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|---|---|
-| Framework | React 19 |
-| Routing | React Router DOM 7 (`HashRouter`) |
-| Styling | Tailwind CSS 3, PostCSS, Autoprefixer |
-| Build Tool | Vite (rolldown-vite) |
-| State / i18n | React Context API + Hooks |
-| Linting | ESLint 9 |
-| Language | JavaScript (JSX) |
+**React 19** · **React Router 7 (HashRouter)** · **Tailwind CSS 3** · **Vite (rolldown-vite)** · **Context API + Hooks** · **ESLint 9** · **JavaScript (JSX)**
 
 ---
 
-## 📁 Project Structure
+## 📁 Structure
 
-```
 src/
-├── App.jsx                 # Routes + global providers
-├── main.jsx                # App entry point
-├── context/
-│   ├── LanguageContext.jsx # Bilingual i18n provider (English/Marathi)
-│   └── PopupContext.jsx    # Timed/randomized popup engine
-├── locale/
-│   ├── english.json        # English translations
-│   └── marathi.json        # Marathi translations
-├── components/
-│   ├── Header/  Footer/  Transformation/
-│   └── Popup/              # Subscribe, Volunteer, Contact popups
-└── Pages/
-    ├── Home/  About/  Activities/  Gallery/
-    ├── Getinvolved/  Donate/  Contact/
-    └── Home/components/    # Hero, Mission, CoreFocus, Initiatives
-```
+├── App.jsx · main.jsx
+├── context/    # LanguageContext (i18n), PopupContext (popup engine)
+├── locale/     # english.json, marathi.json
+├── components/ # Header, Footer, Transformation, Popup/
+└── Pages/      # Home, About, Activities, Gallery, Getinvolved, Donate, Contact
+
+
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+ and npm
-
-### Installation
-
 ```bash
-# Clone the repository
 git clone https://github.com/<your-username>/deepstambh.git
 cd deepstambh
-
-# Install dependencies
 npm install
-
-# Start the dev server
 npm run dev
-```
+Scripts: dev · build · preview · lint
 
-### Available Scripts
+🧩 Highlights
+i18n without duplication — t(key) helper + JSON files; only the active language loads.
+Persistent language — synced to localStorage, rehydrated on load.
+Clean popups — PopupContext with useRef timers to avoid leaks.
+Static-host routing — HashRouter for reliable deep links on GitHub Pages / Netlify.
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the Vite dev server |
-| `npm run build` | Create a production build |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint |
 
 ---
 
