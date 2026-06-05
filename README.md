@@ -12,6 +12,27 @@ getting it deployed on a static host.
 
 **Live Demo:** https://deepstambh-ngo.vercel.app
 
+## Screenshots
+
+The same Home page in both languages — the EN/MR toggle swaps every string, and the layout
+adapts down to mobile:
+
+| Desktop (Marathi) | Mobile (English) |
+|---|---|
+| ![Home page in Marathi](screenshots/home-marathi.png) | ![Home page in English on mobile](screenshots/home-mobile-en.png) |
+
+**About — the founder**
+
+![Founder section](screenshots/founder.png)
+
+**Activities**
+
+![Activities page](screenshots/activities.png)
+
+**Get Involved**
+
+![Get Involved page with partnership form](screenshots/get-involved.png)
+
 ## What it does
 
 - **English / Marathi toggle.** All the text runs through a small i18n layer built on React
