@@ -10,7 +10,7 @@ Software Engineer. It was my first proper end-to-end frontend project, so a lot 
 me figuring things out as I went — the component structure, the bilingual setup, and
 getting it deployed on a static host.
 
-**Live Demo:** _(coming soon)_
+**Live Demo:** https://deepstambh-ngo.vercel.app
 
 ## What it does
 
