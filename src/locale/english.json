@@ -1,0 +1,459 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About us",
+  "nav_activities": "Activities",
+  "nav_initiatives": "Initiatives",
+  "nav_get_involved": "Get Involve",
+  "nav_gallery": "Gallery",
+  "nav_contact": "Get in Touch",
+  "nav_donate": "Donate",
+
+  "footer_about": "About us",
+  "footer_activities": "Our activities",
+  "footer_gallery": "Gallery",
+  "footer_involved": "Get Involve",
+  "footer_admin": "Admin",
+
+  "trans_donate": "Donate now",
+  "trans_volunteer": "Volunteer with us",
+
+  "hero_kicker": "Service, Teaching, Strength!",
+  "hero_title": "Deepastambh Pratishthan",
+  "hero_sub": "An effort to enlighten society through service, education and empowerment.",
+  "hero_btn_activities": "Our Activities",
+  "hero_btn_involved": "Get involved",
+
+  "mission_title": "Our Mission",
+  "mission_desc": "Founded under the vision of Vidhan Sabha Member Mrs. Meghna Sakore Bordikar, Deepastambh Pratishthan is committed to uplifting communities across Maharashtra through service, education and empowerment. Guided by the belief that every individual holds the power to transform society, the foundation continues to illuminate lives and strengthen communities through dedicated efforts.",
+  "mission_cta": "Learn more",
+
+  
+  
+  "initiatives_title": "Initiatives & Success Stories",
+  "initiatives_sub": "Through its diverse programs, Deepastambh Pratishthan has illuminated journeys of self-reliance, education, and social transformation. Here are some of the inspiring stories born from these efforts.",
+  "initiatives_read": "Read story",
+  "initiatives_see_more": "See more initiatives and success stories",
+
+  "transformation_title": "Be the Light of Transformation",
+  "transformation_desc": "Your support can spark lasting change across Maharashtra. Every contribution helps build a stronger, more self-reliant society through education, service and social development.",
+  "transformation_cta": "Join Us",
+
+  "activities_title1": "Our Activities",
+  "activities_desc": "We conduct initiatives throughout Maharashtra focusing on education, women empowerment, environment, and rural development.",
+
+  "activities_education_title": "Educational Programs",
+  "activities_education_desc": "Scholarships, school support, learning materials, and youth development sessions.",
+
+  "activities_women_title": "Women Empowerment",
+  "activities_women_desc": "Skill development, leadership training, and micro-entrepreneurship support.",
+
+  "activities_environment_title": "Environmental Initiatives",
+  "activities_environment_desc": "Tree plantation, clean-up drives, and sustainability awareness.",
+
+  "activities_rural_title": "Rural Development",
+  "activities_rural_desc": "Infrastructure support, community development, and village transformation initiatives.",
+
+  "activities_read_more": "Read more",
+  "activities_coming_soon": "More detailed activity reports will be added soon.",
+
+  
+
+  "getinvolved_vol_title": "Become a volunteer with us",
+  "getinvolved_vol_sub": "Fill out the form below and we will get in touch with you regarding volunteer opportunities.",
+
+  "getinvolved_form_name": "Full Name",
+  "getinvolved_form_email": "Email Address",
+  "getinvolved_form_phone": "Phone Number",
+  "getinvolved_form_motivation": "Tell us about your interests and how you would like to contribute..?",
+  "getinvolved_submit": "Submit Application",
+
+  "donate_hero_title": "Donate",
+  "donate_hero_sub": "Your small donation can make a big difference in someone's development — participate in education, empowerment, and travel, and create a brighter future for society.",
+  "donate_form_name": "Full Name",
+  "donate_form_email": "Email Address",
+  "donate_form_phone": "Phone Number",
+  "donate_form_amount": "Donation Amount",
+  "donate_form_purpose": "Purpose of Donation",
+  "donate_form_message": "Message",
+  "donate_submit": "Donate",
+
+   "donate_ph_name": "Enter your name",
+   "donate_ph_email": "your.email@example.com",
+   "donate_ph_phone": "+91 XXXXX XXXXX",
+   "donate_ph_message": "Write your message here (optional)",
+   "donate_ph_purpose": "Purpose of donation",
+
+  "sending": "Sending...",
+
+  "footer_title": "Deepastambh Pratishthan",
+  "footer_tagline": "Service, Education, Strength!",
+  "footer_desc": "To illuminate the path for communities in Maharashtra through service, education and empowerment.",
+  "footer_links_title": "Useful links",
+  "footer_follow": "Join us",
+  "footer_email": "meghna.bordikar@gmail.com",
+  "footer_copy": "© 2025 Deepastambh Pratishthan. All rights reserved.",
+  
+
+
+  "footer_contact_title": "Get in Touch",
+  "contact_email": "meghna.bordikar@gmail.com",
+  "footer_location": "Maharashtra, India",
+  
+
+  "about_title": "About Dipastambha Pratishthan",
+  "about_sub": "Committed to education, empowerment and community development across Maharashtra.",
+
+  "about_mission_title": "Our Vision & Mission",
+  "about_mission_desc": "To empower society through education, skill development, rural upliftment and social responsibility initiatives.",
+
+  "about_stat_projects": "Projects Completed",
+  "about_stat_people": "People Impacted",
+  "about_stat_years": "Years of Service",
+
+  "about_values_title": "Our Core Values",
+  "about_value_service_title": "Service",
+  "about_value_service_desc": "Serving communities with compassion, dedication and responsibility.",
+  "about_value_education_title": "Education",
+  "about_value_education_desc": "We believe education is the foundation of social transformation.",
+  "about_value_empower_title": "Empowerment",
+  "about_value_empower_desc": "Building confidence, leadership and self-reliance.",
+
+  "about_team_title": "Our Team",
+  "about_team_sub": "The people working tirelessly behind every initiative and impact.",
+
+  "about_team_lead": "Founder & Leader",
+  "about_team_member": "Team Member",
+
+  "about_cta_title": "Be a Part of the Change",
+  "about_cta_sub": "Join hands with us to build a stronger and more empowered society.",
+  "about_cta_getinvolved": "Get Involved",
+  "about_cta_contact": "Contact Us",
+
+
+  "about_heading": "About Us",
+  "about_subtext": "A social impact foundation committed to empowering communities through education, leadership development, inclusion, and sustainable progress.",
+
+
+  "who_title": "Who We Are",
+  "who_text": "Deepastambh Pratishthan is a community-led foundation working to expand opportunities through education, leadership development, and social empowerment. We collaborate with children, youth, women and local institutions to create long-term, sustainable change across Maharastra.\nWe believe every child deserves to learn, every women deserve to lead, and every community deserves the chance to grow with dignity and independence. The mission pillars below reflect the values that guide our work and shape every initiative we undertake.",
+
+  "pillar_education_title": "Education",
+  "pillar_education_desc": "Ensure quality, inclusive, and equitable education for all, especially in rural and marginalized communities.",
+
+  "pillar_empower_title": "Empower",
+  "pillar_empower_desc": "Advance gender equality and women's leadership by building confidence, economic independence, and social participation.",
+
+  "pillar_enrich_title": "Enrich",
+  "pillar_enrich_desc": "Develop rural and urban communities through health, livelihood, and self-reliance initiatives.",
+
+  "pillar_sustain_title": "Ensure Sustainability",
+  "pillar_sustain_desc": "Promote environmental awareness, conservation, and green living for a balanced future.",
+
+  "pillar_engage_title": "Engage",
+  "pillar_engage_desc": "Inspire and train youth as agents of change through leadership, life skills, and civic responsibility.",
+
+  "vision_heading": "Our Vision",
+  "vision_text": "“A world where every child learns, every woman leads, every youth contributes, and every community thrives — guided by the light of equality, education, and sustainable progress.”",
+
+  "about_core_heading": "Our Core Values",
+
+  "value_integrity_title": "Integrity",
+  "value_integrity_desc": "We act with honesty, fairness and accountability in all we do.",
+
+  "value_empathy_title": "Empathy",
+  "value_empathy_desc": "We respect the dignity of every individual and respond with compassion.",
+
+  "value_equality_title": "Equality",
+  "value_equality_desc": "Develop rural and urban communities through health, livelihood, and self-reliance initiatives.",
+
+  "value_service_title": "Service",
+  "value_service_desc": "We believe in social justice, gender balance, and inclusiveness.",
+
+  "value_empowerment_title": "Empowerment",
+  "value_empowerment_desc": "We help people realize their own strength and agency.",
+
+  "value_collaboration_title": "Collaboration",
+  "value_collaboration_desc": "We work hand-in-hand with communities, institutions, and partners.",
+
+  "value_innovation_title": "Innovation",
+  "value_innovation_desc": "We welcome new ideas, technologies, and creative problem-solving.",
+
+  "founder_heading": "The Woman Behind the Light",
+  "founder_img_alt": "Founder",
+ 
+  "founder_quote": "“When we change one life, we uplift a family. When we uplift families, we strengthen communities and when communities rise, a nation transforms.”",
+
+  "founder_desc": "A dedicated social worker and former Member of Parliament, Mrs. Meghna Bodikar carries a lifelong commitment to uplifting those who are often unseen and unheard. Her belief that education can awaken potential, women's empowerment can shift generations, and community strength can rewrite futures led to the birth of Deepastambh  Pratisthan.\n\n What began as her personal mission to serve with compassion has grown into a foundation that inspires thousands across Maharashtra. Guided by her clarity of purpose and a heart grounded in service, she continues to light pathways where hope becomes opportunity and every individual is given the chance to rise.",
+
+  "impact_heading": "Impact Stories",
+
+  "impact_card_1_quote": "“Deepastambh  Foundation has transformed our community by bringing quality education to rural areas. Our children now have hope for a brighter future.”",
+ 
+
+  "gallery_title": "Gallery",
+  "gallery_sub": "Moments that capture our journey of service, empowerment, and community transformation across Maharashtra.",
+  "gallery_img_alt": "Gallery Image",
+
+  "core_education": "Education",
+  "core_education_desc": "Deepastambh  Pratishthan promotes education and awareness among students through college sessions, youth engagement, and career development programs.",
+
+  "core_women": "Women Empowerment",
+  "core_women_desc": "To promote quality education and awareness through college dialogue, youth empowerment and skill development programs..",
+
+  "core_environment": "Environmental Conservation",
+  "core_environment_desc": "Tree plantation, cleanliness campaigns, and awareness drives encourage sustainable living and build a path toward lasting environmental balance..",
+
+  "core_rural": "Rural Development",
+  "core_rural_desc": "To promote quality education and awareness through college dialogue, youth empowerment and skill development programs..",
+
+  "core_title": "Our Core Focus",
+  "core_sub": "Deepastambh  Pratishthan works on four focal points: education, women empowerment, environmental conservation, and rural development. Each initiative is a step toward the self-reliance of society by imparting knowledge, creating opportunities, and instilling a sense of responsibility. The lamp of transformation continues to shine through these efforts rooted in the soil of Maharashtra.",
+
+  "initiatives_card_1_title": "Rural Development and Social Participation",
+  "initiatives_card_1_desc": "Health camps, sanitation drives, and awareness programs encourage rural communities to take collective action. These initiatives strengthen accountability, unity, and progress at the grassroots level.",
+
+  "initiatives_card_2_title": "Education and Youth Communication",
+  "initiatives_card_2_desc": "Workshops and sessions for students build awareness of social responsibility and nation-building. Through training and guidance, youth are inspired to set purposeful goals and contribute to society.",
+
+  "initiatives_card_3_title": "Women Empowerment",
+  "initiatives_card_3_desc": "Deepastambh  Pratishthan has trained women in skills, education, and self-employment, helping many achieve financial independence.These efforts continue to inspire women to lead and create lasting social impact.",
+
+  "initiatives_card_4_title": "Environmental Conservation",
+  "initiatives_card_4_desc": "Awareness drives, plastic-free campaigns, and cleanliness programs promote environmental responsibility in communities.Citizens and youth actively join these efforts to create cleaner, sustainable surroundings.",
+
+  "gallery_tag": "Education",
+  "gallery_caption": "College Dialogue Journey",
+
+  "contact_hero_title": "Get in Touch",
+  "contact_hero_sub": "Contact us to learn about our work, volunteer opportunities, or partnership possibilities.",
+
+  "contact_address": "Nayan Swapn Nivas, Jhuna Pedgav Road, Parbhani 431 401, Maharashtra",
+  "contact_phone": "+91 2452340902\n +91 2452341902",
+
+  "contact_info_title": "Deepastambh  Foundation",
+
+  "working_title": "Working for Parbhani District",
+  "working_desc": "Our primary focus area is Parbhani district, but we collaborate with organizations across Maharashtra to maximize our impact.",
+
+  "contact_form_name": "Full Name",
+  "contact_form_email": "Email Address",
+  "contact_form_subject": "Subject",
+  "contact_form_message": "Message",
+  "contact_submit": "Send",
+
+  "contact_ph_name": "Write your full name",
+  "contact_ph_email": "your.email@example.com",
+  "contact_ph_subject": "Write the subject of the message",
+  "contact_ph_message": "Write your message here...",
+
+  
+  "activities_title": "Activities",
+  "activities_sub": "Transforming communities through targeted programs addressing education,empowerment, environment, and social welfare",
+
+  "act_tag_0": "Environment",
+  "act_title_0": "Drought Relief and Environmental Awareness Campaign 2012",
+  "act_desc_0": "A comprehensive drought relief program providing immediate assistance to affected communities while promoting long-term environmental conservation practices. This campaign included water conservation projects, agricultural support, and community education on sustainable resource management.",
+
+  "act_tag_1": "Women Empowerment",
+  "act_title_1": "Women Empowerment - Harassment Free Campaign",
+  "act_desc_1": "A pioneering initiative to create safe spaces for women and girls across Maharashtra. Through awareness programs, legal education, and community engagement, we work towards eliminating harassment and empowering women to stand up for their rights.",
+
+  "act_tag_2": "Education",
+  "act_title_2": "Harassment-Free Public Awareness Campaign ",
+  "act_desc_2": "School and college outreach programs educating young people about creating respectful, harassment-free environments. The campaign includes interactive workshops, awareness sessions, and dialogue with students across multiple educational institutions.",
+
+  "act_tag_3": "Education",
+  "act_title_3": "College Dialogue Journey",
+  "act_desc_3": "A series of structured dialogues with college administrations, faculty, and students addressing women's safety, harassment prevention, and creating inclusive educational environments. These sessions focus on policy implementation and cultural change within educational institutions.",
+
+  "act_tag_4": "Community",
+  "act_title_4": "Kranti Jyoti Public Awareness Campaign",
+  "act_desc_4": "A grassroots awareness campaign bringing together communities to discuss social issues, women's rights, and community development. Through public meetings and community gatherings, we foster dialogue and collective action for positive change.",
+
+  "act_tag_5": "Health",
+  "act_title_5": "Sanitary Vending Machine Inauguration",
+  "act_desc_5": "A groundbreaking initiative that introduced Maharashtra's first sanitary vending machine, improving menstrual hygiene access for women. This project addresses period poverty and promotes women's health and dignity across the district. ",
+
+  "act_tag_6": "Health",
+  "act_title_6": "Health Awareness Campaign",
+  "act_desc_6": "A community-centered health awareness initiative focused on improving public understanding of hygiene, nutrition, disease prevention, and primary healthcare practices. Through sessions, demonstrations, and outreach programs, this campaign helps families adopt healthier lifestyles and strengthens access to essential health information. ",
+
+  "act_tag_7": "Community Development",
+  "act_title_7": "Cleanliness Drive (Swachh Bharat Abhiyan)",
+  "act_desc_7": "A pioneering initiative to create safe spaces for women and girls across Maharashtra. Through awareness programs, legal education, and community engagement, we work towards eliminating harassment and empowering women to stand up for their rights. ",
+
+  "act_tag_8": "Environment",
+  "act_title_8": "Environmental Awareness & Tree Plantation Campaign ",
+  "act_desc_8": "School and college outreach programs educating young people about creating respectful, harassment-free environments. The campaign includes interactive workshops, awareness sessions, and dialogue with students across multiple educational institutions.",
+
+  "act_tag_9": "Youth Development",
+  "act_title_9": "Youth Skill Development & Leadership Program",
+  "act_desc_9": "A transformative program designed to build leadership, communication, and life skills among youth. Through interactive workshops, dialogues, and mentorship sessions, young people are trained to become confident, responsible, and socially aware leaders who can contribute meaningfully to community development.",
+
+  "act_tag_10": "Disaster Relief",
+  "act_title_10": "Disaster Relief & Emergency Support Activities",
+  "act_desc_10": "A rapid-response initiative providing essential assistance to families affected by natural disasters such as floods. The program includes distributing relief materials, coordinating community support, and offering on-ground help to ensure affected individuals receive timely aid and care during crises.",
+
+  "act_tag_11": "Women Empowerment",
+  "act_title_11": "Sanitary Vending Machine Inauguration",
+  "act_desc_11": "A series of capacity-building workshops aimed at strengthening the confidence, awareness, and leadership of women across various communities. These sessions focus on rights education, financial literacy, social participation, and personal development—encouraging women to become strong agents of social change. ",
+
+  "act_tag_12": "Community Development",
+  "act_title_12": "Community Meetings & Legal Awareness Sessions",
+  "act_desc_12": "A grassroots initiative conducting informational sessions on legal rights, government schemes, and social issues. Through open dialogues and expert-led interactions, the program empowers communities with knowledge, encourages civic participation, and strengthens collective problem-solving.",
+
+  "founder_name": "Mrs. Meghana Ramprasad Bodikar",
+  "founder_role": "Founder & Chairperson",
+
+  "impact_card_2_quote":  "“The women's empowerment programs have given me the confidence and skills to start my own business and support my family independently.”",
+
+  "impact_card_3_quote": "“Working with Deepastambh  has shown us the power of collaboration in creating sustainable social change.”",
+
+  "impact_card_1_author": "Community Leader",
+  "impact_card_1_location": "Parbhani District",
+
+  "impact_card_2_author": "Program Beneficiary",
+  "impact_card_2_location": "Maharashtra",
+
+  "impact_card_3_author": "Partner Organization",
+  "impact_card_3_location": "Central India",
+
+
+
+
+  "getinvolved_hero_title": "Get Involved",
+  "getinvolved_hero_sub": "Creating change is a process of coming together. Your time, your ideas, and your contributions together shape a new direction for society. Join in, because true transformation begins when each person plays their part. ",
+
+  "getinvolved_section_title": "To support our mission",
+
+   "mission_support_subtitle": "Every contribution you make strengthens our mission. Your participation opens up new possibilities for many lives and makes society more sensitive, capable, and united. Let's come together — because change happens not just through thoughts, but through actions.",
+  
+  "getinvolved_card_1": "Donate",
+  "getinvolved_card_1_desc": "Your financial support helps expand our programs and reach more communities in need. Every donation from you creates a ray of hope in someone's life. ",
+
+  "getinvolved_card_2": "Volunteer",
+  "getinvolved_card_2_desc": "Dedicate your time and skills, actively participate in our initiatives, and become a part of social change. Your involvement serves as a source of inspiration for us. ",
+
+  "getinvolved_card_3": "Partnership",
+  "getinvolved_card_3_desc": "Institutional and individual partnerships strengthen our initiatives and help us reach more communities. Let's create meaningful social impact through CSR programs, resource collaborations, or local projects. ",
+
+  "volunteer_form_title": "Become a volunteer with us",
+  "volunteer_form_subtitle": "Fill out the form below and we will get in touch with you regarding volunteer opportunities ",
+
+  
+
+  "form_full_name": "Full Name / Organization Name",
+  "form_full_name_org": "Full Name / Organization Name",
+  "form_email": "Email Address",
+  "form_phone": "Phone Number",
+  "form_motivation": "What motivates you to volunteer?",
+  "form_partnership_type": "Select Type of Partnership",
+  "form_collaboration": "Briefly Describe the Collaboration",
+  "form_website": "Website / Social Links ",
+
+  "placeholder_name": "Your Name",
+  "placeholder_name_org": "Your Name / Organization Name",
+  "placeholder_email": "your.email@example.com",
+  "placeholder_phone": "+91 XXXXX XXXXX",
+  "placeholder_collaboration": "Tell us about your interests and how you would like to contribute...",
+  "placeholder_partnership_type": "Type of Partnership",
+  "placeholder_website": "Website / Social Media Links",
+
+  "partnership_option_csr": "CSR",
+  "partnership_option_institutional": "Institutional Partnership",
+  "partnership_option_individual": "Individual Partnership",
+
+  "submit_application": "Submit Application",
+
+  "popup_processing": "Processing your request...",
+  "popup_close": "Close",
+
+
+"volunteer_form_name": "Full Name",
+"volunteer_form_email": "Email Address",
+"volunteer_form_phone": "Phone Number",
+"volunteer_form_motivation": "What motivates you to volunteer?",
+"volunteer_placeholder_name": "Your name",
+"volunteer_placeholder_email": "your.email@example.com",
+"volunteer_placeholder_phone": "+91 XXXXX XXXXX",
+"volunteer_placeholder_motivation": "Tell us about your interests and how you would like to contribute… ",
+"volunteer_submit": "Submit Application",
+
+"partner_form_title": "Become a Partner",
+"partner_form_subtitle": "Fill out the form below and we will get in touch with you regarding potential collaboration",
+
+"partner_form_name_org": "Full Name / Organization Name",
+"partner_form_email": "Email Address",
+"partner_form_phone": "Phone Number",
+"partner_form_partnership_type": "Type of Partnership",
+"partner_form_collaboration": "Briefly Describe the Collaboration",
+"partner_form_website": "Website / Social Links",
+
+"partner_placeholder_name_org": "Your Name / Organization Name",
+"partner_placeholder_email": "your.email@example.com",
+"partner_placeholder_phone": "+91 XXXXX XXXXX",
+"partner_placeholder_partnership_type": "Type of Partnership",
+"partner_placeholder_collaboration": "Tell us about your interests and how you would like to contribute…",
+"partner_placeholder_website": "Website or social media link",
+
+"partner_submit": "Submit Application",
+
+"popup_volunteer_processing": "Processing your volunteer request...",
+
+"popup_volunteer_message": "Thank you for volunteering with Deepastambh.We've received your application and will get in touch soon.",
+"popup_volunteer_close": "Close",
+
+"popup_partner_processing": "Processing your partnership request...",
+
+"popup_partner_message": "Thank you for reaching out.  Our team will contact you shortly to discuss the partnership.",
+"popup_partner_close": "Close",
+
+
+"donate_popup_processing": "Processing your donation...",
+"donate_popup_message": "THANK YOU FOR YOUR DONATION!!",
+
+"donate_purpose_general": "General Fund",
+"donate_purpose_education": "Education Support",
+"donate_purpose_women": "Women Empowerment",
+"donate_purpose_community": "Community Development",
+
+"donate_amount_other": "Others",
+
+"contact_popup_processing": "Processing your message...",
+"contact_popup_message": "Thank you for contacting Deepastambh  Foundation. Our team will get back to you shortly.",
+"contact_popup_close": "Close",
+
+"volunteer_popup_title": "Volunteer With Us",
+"volunteer_popup_subtitle": "Join us and be part of creating positive change.",
+
+
+"subscribe_title": "Stay Updated",
+"subscribe_sub": "Get the latest news, stories, and updates from our foundation.",
+
+"subscribe_form_name": "Full Name",
+"subscribe_form_email": "Email Address",
+
+"subscribe_placeholder_name": "Your Name",
+"subscribe_placeholder_email": "your.email@example.com",
+
+"subscribe_button": "Subscribe Now",
+
+"contact_popup_title": "Get in Touch",
+  "contact_popup_subtitle": "We’d love to hear from you. Reach out to connect or ask questions.",
+
+  "contact_label_name": "Full Name",
+  "contact_label_email": "Email Address",
+  "contact_label_subject": "Subject",
+  "contact_label_message": "Message",
+
+ 
+  "contact_success": "Message Sent Successfully!",
+  "contact_success_sub": "We will get back to you soon.",
+
+  "subscribe_success": "Subscribed successfully!",
+  "subscribe_success_sub": "Thank you for subscribing to our updates.",
+
+  "volunteer_success": "Application Submitted Successfully!",
+  "volunteer_success_sub": "Thank you for volunteering with us. Our team will contact you soon."
+ 
+}
