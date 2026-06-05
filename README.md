@@ -2,7 +2,10 @@
 
 A bilingual (English / Marathi) website built for **Deepastambh Pratishthan**, a social foundation working across Maharashtra in the areas of service, education, and community empowerment. The site presents the foundation's mission, activities, initiatives & success stories, gallery, and donation/volunteer touchpoints.
 
-> Built during my 5-month internship as a frontend developer.
+> 🧑‍💻 I built this website during my **5-month internship at Aivot AI**, where I
+> worked as an **Associate Software Engineer**. It was my first end-to-end frontend
+> project — spanning component architecture, a custom i18n system, responsive design,
+> and static-host deployment.
 
 🌐 **Live Demo:** _add your deployed link here (Vercel / Netlify / GitHub Pages)_
 
@@ -100,6 +103,13 @@ npm run dev
 - Implemented a reusable internationalization system supporting two languages with persistent preferences.
 - Designed a maintainable, component-driven architecture using modern React (Context API + Hooks).
 - Gained hands-on experience with the React 19 + Vite + Tailwind CSS workflow in a real-world project.
+
+---
+
+## 🙌 Acknowledgements
+
+Built as part of my internship at **Aivot AI** (Associate Software Engineer),
+for **Deepastambh Pratishthan**.
 
 ---
 
